@@ -2,6 +2,11 @@ import numpy as np
 import torch
 from scipy.ndimage import center_of_mass
 
+"""
+Utility to generate per-timestep and temporal aggregate summary statistics 
+from raw attention tensors, for use in synthetic attention interpretation
+generation. 
+"""
 
 # --------------------------------------------
 # Region / Quadrant Masks
